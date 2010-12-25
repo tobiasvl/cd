@@ -1,0 +1,48 @@
+body {
+	background-color:	#fff;
+	color:			#000;
+}
+table {
+	width:			750px;
+	border-spacing:		1px;
+}
+th {
+	text-align:		left;
+	color:			#fff;
+	background-color:	#005;
+	white-space:		nowrap;
+}
+td {
+	background-color:	#aaf;
+	color:			#000;
+	white-space:		nowrap;
+	padding-right:		1em;
+}
+form {
+	display:		inline;
+}
+a.sort {
+	text-decoration:	none;
+	color:			#fff;
+	background-color:	inherit;
+}
+.new,.new td {
+	background-color:	#adf;
+}
+.new td.sorted {
+	background-color:	#cff;
+	color:			inherit;
+}
+.error {
+	font-weight:		bold;
+	background-color:	#fff;
+	color:			#f00;
+}
+.sorted {
+	background-color:	#ccf;
+	color:			#000;
+}
+th.sorted {
+	background-color:	#00a;
+	color:			#fff;
+}
